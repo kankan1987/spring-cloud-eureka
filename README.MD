@@ -117,7 +117,7 @@ server:
 * service-url不能使用ip+端口直接访问，否则也会失败
 
 在单机情况下，我们需要配置hosts来解析peer1、peer2、peer3
-```properties
+```
 127.0.0.1 peer1
 127.0.0.1 peer2
 127.0.0.1 peer3
