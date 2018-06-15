@@ -128,8 +128,8 @@ server:
 
 DS Replicas显示两个副本节点，available-replicas显示两个可用的副本节点。
 
-如果在真实的物理机上，我们可以不通过配置hosts的方式也是可以的，记住这是 **_真实的物理机的情况下，
-每台机器的ip都不一样_**。配置如下：
+如果在真实的物理机上，我们可以不通过配置hosts的方式也是可以的，记住这是 **真实的物理机的情况下，
+每台机器的ip都不一样**。配置如下：
 ```yaml
 spring:
   application:
@@ -172,6 +172,6 @@ server:
 ```
 实例的名称可以使用ip去注册，当然每个ip不一样，也不会重复，不会导致失败。
 
-至此，我们的Eureka Server就搭建完了，具体参照GitHub地址：[]
+至此，我们的Eureka Server就搭建完了，具体参照GitHub地址：[https://github.com/liubo-tech/spring-cloud-eureka](https://github.com/liubo-tech/spring-cloud-eureka)
 
 
