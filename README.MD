@@ -4,4 +4,5 @@
 服务端可以部署成为高可用，每一个节点都可以将其注册的服务备份到其他节点。
 
 * [Eureka 服务注册中心](/eureka-server.md)
+* [Eureka 服务注册与发现](/eureka-client.md)
 
