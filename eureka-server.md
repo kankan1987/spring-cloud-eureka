@@ -13,7 +13,7 @@ Eureka Server是服务的注册中心，这是分布式服务的基础，我们�
     </dependency>
     <dependency>
         <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-actuator</artifactId>
+        <artifactId>spring-boot-starter-actuator</artifactId>
     </dependency>
 </dependencies>
 ```
