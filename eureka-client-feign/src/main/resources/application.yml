@@ -1,11 +1,9 @@
 server:
-  port: 8200
+  port: 8500
 spring:
   application:
-    name: service-user
+    name: client-feign
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
-    healthcheck:
-      enabled: true

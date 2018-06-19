@@ -1,5 +1,3 @@
-server:
-  port: 8100
 spring:
   application:
     name: service-order
@@ -10,4 +8,19 @@ eureka:
     healthcheck:
       enabled: true
 
+---
 
+spring:
+  profiles: node-1
+server:
+  port: 8100
+order:
+  status: '已付款'
+
+---
+spring:
+  profiles: node-2
+server:
+  port: 8300
+order:
+  status: '未支付'
