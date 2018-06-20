@@ -4,7 +4,7 @@ import com.example.feign.model.Order;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-@FeignClient("SERVICE-ORDER")
+@FeignClient(value = "SERVICE-ORDER",fallback = OrderHystrix.class)
 public interface RemoteOrder {
 
     @RequestMapping("/order/detail")
