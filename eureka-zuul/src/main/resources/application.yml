@@ -1,0 +1,21 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: zuul
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+zuul:
+  ignoredServices: '*'
+  routes:
+    service-order:
+      path: /myorders/**
+      serviceId: service-order
+  sensitiveHeaders:
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,routes

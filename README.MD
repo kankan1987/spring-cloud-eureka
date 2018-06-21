@@ -6,4 +6,5 @@
 * [Eureka 服务注册中心](/eureka-server.md)
 * [Eureka 服务注册与发现](/eureka-client.md)
 * [Feign 与 Hystrix](/feign.md)
+* [Zuul网关路由](/zuul.md)
 

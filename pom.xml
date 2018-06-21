@@ -11,6 +11,7 @@
         <module>eureka-client-order</module>
         <module>eureka-client-user</module>
         <module>eureka-client-feign</module>
+        <module>eureka-zuul</module>
     </modules>
     <packaging>pom</packaging>
 
